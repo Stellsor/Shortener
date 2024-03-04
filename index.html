@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL Shortener</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<h1>URL Shortener</h1>
+	<form>
+		<label for="long_url">Enter your Long URL:</label>
+		<input type="text" name="long_url" id="long_url" placeholder="https://www.example.com"><br><br>
+		<input type="button" value="Shorten" onclick="shortenUrl()">
+	</form>
+	<div id="result" class="result" style="display:none"></div>
+</body>
+</html>
